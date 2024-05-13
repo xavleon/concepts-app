@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 200px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 50%;
+
+}
+
+.form input {
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.form button {
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.live-msg {
+    /* ...other styles... */
+    overflow-wrap: break-word; /* This will break the text onto the next line when it hits the border */
+}
