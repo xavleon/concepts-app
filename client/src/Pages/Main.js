@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <div className="main">
       <div class="overlay"></div>
-      <video src={videoWP} autoPlay loop muted />
+      <video src={""} autoPlay loop muted />
       <div className="content">
         <h1>Welcome To My Site</h1>
         <button onClick={enterSite}>Enter</button>
