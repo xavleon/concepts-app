@@ -10,6 +10,7 @@ import MyFinalSite from "./MySite/MyFinalSite";
 import Slideshow from "./Slideshow/Slideshow";
 import Form from "./Components/Form/Form";
 import Form2 from "./Components/Form2/Form2";
+import Products from "./Pages/Products/Products";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/slideshow" element={<Slideshow />} />
           <Route path="/form" element={<Form />} />
           <Route path="/form2" element={<Form2 />} />
+          <Route path="/products" element={<Products />} />
         </Routes>
       </div>
     </Router>

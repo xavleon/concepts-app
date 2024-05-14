@@ -3,8 +3,10 @@ import "./Form2.css";
 import { useState } from "react";
 import icon from "./forms.png";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Form2 = () => {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -44,6 +46,7 @@ const Form2 = () => {
         "http://localhost:5000/api/messages/submission",
         formData
       );
+      navigate("/products");
     } catch (err) {
       console.log(err);
     }

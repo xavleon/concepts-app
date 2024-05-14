@@ -1,5 +1,4 @@
 import React from "react";
-import videoWP from "../assets/video_wp.mp4";
 import "./Main.css";
 import { useNavigate } from "react-router-dom";
 
